@@ -25,10 +25,6 @@ h4{
     margin: auto;
 }
 
-.imageDiv{
-    position: relative;
-}
-
 #memeCanvas{
     width: 100%;
 }   
@@ -45,35 +41,29 @@ h4{
     text-align:center;
 }
 
-
-
 .divText{
-    /* position: absolute;
-    margin-left: 60px;
-    font-weight: bold;
-    display: inline-block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     -webkit-text-stroke: 1px black; 
     font-family: sans; color: white;
-    font-size: 30px; */
-
-    position: absolute;
-    top: 8px;
-    left: 16px;
+    font-size: 30px;
+    font-weight: bold;
+    
+    background-color: transparent;
 }
 
 .divTextBt{
-    /* position: absolute;
-    font-weight: bold;
-    display: inline-block;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     -webkit-text-stroke: 1px black; 
     font-family: sans; color: white;
-    bottom: 0px;
-    left: 60px;
-    font-size: 30px; */
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 .frameDiv{
@@ -81,3 +71,14 @@ h4{
     text-align: center;
     color: white;
 }
+
+
+.divImage img{
+    opacity:1;
+    transition: 1s ease;
+    }
+    
+    .divImage img:hover{
+    opacity:0.5;
+    transition: 1s ease;
+    }
